@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+}
+.App-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.team-matches-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #d91c1f, #000000);
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.team_image {
+  width: 80%;
+}
+.latest_matches_heading {
+  color: #ffffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.match-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
